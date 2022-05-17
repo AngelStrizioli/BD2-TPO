@@ -12,7 +12,7 @@ router.get('/default', function (req, res)
     });
 });
 
-//EndPoint para lee las pelis
+//EndPoint para leer las pelis
 router.get('/leerPelis',function(req,res)
 {
     console.log("pelis");

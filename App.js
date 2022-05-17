@@ -7,6 +7,7 @@ var cors = require('cors');
 var app = express();
 
 //conectar BD
+//aca podemos usar la bd local que tengamos, o como en este caso usar la bd cloud de mongo con la url que se obtiene de la pagina
 //var urlBD = 'mongodb://localhost/test';
 const urlBD = "mongodb+srv://astrizioli:!BD2TPO@bd2-tpo.pehuv.mongodb.net/BD2?retryWrites=true&w=majority";
             
